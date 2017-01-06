@@ -20,11 +20,11 @@ Package.onUse(function(api) {
     'check',
     'iron:router',
     'underscore',
-    'useraccounts:core',
+    'accounts-core-modified',
   ], ['client', 'server']);
 
   api.imply([
-    'useraccounts:core@1.14.2',
+    'accounts-core-modified@0.0.1',
     'iron:router@1.0.9',
   ], ['client', 'server']);
 
